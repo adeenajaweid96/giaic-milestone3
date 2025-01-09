@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+<h1 style="text-align: center; color: gray; font-size: 40px;">Preview</h1>
+    <div class="resume">
+
+        <div class="container">
+            <div class="left">
+                <div class="profile">
+                    <img src="images/image-removebg-preview (10).png" alt="profile-picture" class="image"
+                        style="height: auto ; border-radius: 50%; margin-bottom: 20px; max-width: 200px;">
+                </div>
+
+                <div>
+                    <h2>Contact</h2>
+                    <p><strong><i class="fa-solid fa-phone"></i>ph no:</strong> +92 323 222 000</p>
+                    <p><strong><i class="fa-solid fa-envelope"></i>
+                            Email:</strong> adeenajaweid19@gmail.com</p>
+                    <p><strong><i class="fa-brands fa-github"></i>
+                            Github: </strong><a href="https://github.com/adeenajaweid96/" target="_blank">
+                            https://github.com/adeenajaweid96/</a></p>
+                    <p><strong><i class="fa-brands fa-linkedin"></i>
+                            LinkedIn: </strong><a href="https://www.linkedin.com/in/adeenajaweid96/" target="_blank">
+                            https://www.linkedin.com/in/adeenajaweid96/</a></p>
+                    <p><strong><i class="fa-solid fa-code"></i>
+                            Portfolio: </strong><a href="https://portfolio-nextjs-ten-tau.vercel.app" target="_blank">
+                            https://portfolio-nextjs-ten-tau.vercel.app</a>/</p>
+                    <p></p>
+                </div>
+
+                <div>
+                    <h2 class="left-side">Skills</h2>
+                    <ul class="lists">
+                        <li class="styleChange">HTML</li>
+                        <li class="styleChange">CSS</li>
+                        <li class="styleChange">Javascript</li>
+                        <li class="styleChange">Typescript</li>
+                        <li class="styleChange">Tailwind CSS</li>
+                        <li class="styleChange">React Js</li>
+                        <li class="styleChange">Next Js</li>
+                        <li class="styleChange">Github</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h2 class="left-side">Summary</h2>
+                    <p class="styleChange" id="para">I am a passionate Frontend Developer change designs into
+                        interactive UI.I am a student
+                        of BS Software Engineering</p>
+        <div class="morePara"><button id="moreBtn" onclick="showMoreBtn()">Show More</button></div>
+                </div>
+
+
+
+            </div>
+
+
+
+            <div class="right">
+                    <div class="myself">
+                        <h1 class="name">Adeena Jaweid</h1>
+                        <h3 class="profession">Frontend Developer</h3>
+                </div>
+
+                <div class="education">
+                    <h2>Education</h2>
+                    <p>BS SOftware Engineering(OnGoing)</p>
+                    <p>SMIT Mern Stack Developement Course</p>
+                    <p>Certified Cloud Computing and Generative AI Course</p>
+                    <p>UI/UX and React.Js Courses from Bano qabil 2.o</p>
+
+                </div>
+
+                <div class="experience-1">
+                    <h2>Experience:</h2>
+                    <div id="experience">
+                    <p>1 year of learning Web Development</p>
+                    <p>6 month experience as a teacher of MS office</p></div>
+               </div>
+               <div>
+                <button class="btn" id="experienceBtn" onclick="hideExperience()">Hide Experience</button>
+               </div>
+               <div>
+                <h2>Certificates</h2>
+                <div id="certificate">
+                <p>LRN / BSEK Certification in React.js</p>
+                <p>Certification of MS Office</p></div>
+               </div>
+               <div>
+                <button class="btn" id="certificateBtn" onclick="hideCertificate()">Hide Certificates</button>
+               </div>
+
+
+
+            </div>
+
+
+
+        </div>
+        <div class="create" style="display: flex; justify-content: center; padding:20px;">
+            <button id="create" >Create Your Resume</button>
+            </div>
+    </div>
+
+    <script src="resume.js"></script>
+</body>
+
+</html>
