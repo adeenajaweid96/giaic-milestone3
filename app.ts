@@ -251,7 +251,7 @@ function generatedResume(event: Event): void {
     const resumeOutput = document.getElementById("resumeOutput") as HTMLDivElement;
     
     if (mainHeading && resumeOutput) {
-      mainHeading.innerHTML = "Your Resume is Ready!";
+      mainHeading.innerHTML = "Your Resume";
     
       resumeOutput.innerHTML = `
         <div class="container">
@@ -261,7 +261,7 @@ function generatedResume(event: Event): void {
             </div>
             
             <div>
-              <h3 class="setWidth">About Me</h3>
+              <h3 class="setWidth">Summary</h3>
               <p class="sizeChange">${profileSummary}</p>
             </div>
     
@@ -288,7 +288,7 @@ function generatedResume(event: Event): void {
             </div>
     
             <div>
-              <h3 class="setWidth">Languages</h3>
+              <h3 class="setWidth">Certificates</h3>
               <p class="setDiv">
                 ${languages.map((language) => `
                   <div class="skill-item">
